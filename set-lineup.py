@@ -53,5 +53,4 @@ username = raw_input("Enter your Yahoo! username: ")
 password = getpass.getpass(prompt="Enter your Yahoo! password: ")
 days = input("Number of days to set your lineup (" + str(days_remaining_in_nhl_season()) + " days remain): ")
 
-if __name__ == '__main__':
-	start_active_players()
+start_active_players()
